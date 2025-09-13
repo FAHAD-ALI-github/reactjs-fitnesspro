@@ -20,7 +20,7 @@ const Members = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch('http://127.0.0.1:8000/allusers/')
+    fetch(`${process.env.REACT_APP_API_URL}/allusers/`)
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
@@ -88,7 +88,7 @@ export default Members;
 // const Members = () => {
 //     const[data, setData]=useState([])
 //     useEffect(()=>{
-//         axios.get("http://127.0.0.1:8000/allusers/").then((res)=>
+//         axios.get(`${process.env.REACT_APP_API_URL}/allusers/`).then((res)=>
 //             setData(res.data))
 //     }, [])
 //   return (

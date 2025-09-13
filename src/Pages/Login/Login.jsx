@@ -14,7 +14,7 @@ const Login = () => {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://127.0.0.1:8000/login/', { username, password });
+      const response = await axios.post(`${process.env.REACT_APP_API_URL}/login/`, { username, password });
       navigate('/profile', { state: { user: response.data } });
     } catch (error) {
       console.error('Login failed:', error);

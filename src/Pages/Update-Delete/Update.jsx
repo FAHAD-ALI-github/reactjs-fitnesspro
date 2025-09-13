@@ -52,7 +52,7 @@ const Update = () => {
       dataToSubmit.append('profile_picture', profilePicture);
     }
 
-    const response = await fetch(`http://127.0.0.1:8000/update/${user.id}/`, {
+    const response = await fetch(`${process.env.REACT_APP_API_URL}/update/${user.id}/`, {
       method: 'PUT',
       body: dataToSubmit,
     });
@@ -70,7 +70,7 @@ const Update = () => {
   };
 
   const handleDelete = async () => {
-    const response = await fetch(`http://127.0.0.1:8000/delete/${user.id}/`, {
+    const response = await fetch(`${process.env.REACT_APP_API_URL}/delete/${user.id}/`, {
       method: 'DELETE',
     });
 
@@ -99,7 +99,7 @@ const Update = () => {
             {/* Show current picture if exists */}
             {user?.profile_picture && !profilePicture && (
               <img
-                src={`http://127.0.0.1:8000${user.profile_picture}`}
+                src={`${process.env.REACT_APP_API_URL}${user.profile_picture}`}
                 alt="Current Profile"
                 style={{
                   width: '100px',

@@ -43,7 +43,7 @@ const Register = () => {
     }
 
     try {
-      await axios.post('http://127.0.0.1:8000/adduser/', formData, {
+      await axios.post(`${process.env.REACT_APP_API_URL}/adduser/`, formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
