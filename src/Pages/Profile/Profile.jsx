@@ -16,7 +16,7 @@ const Profile = () => {
   };
 
   // Base URL for images (MEDIA_URL in Django)
-  const BASE_URL = "http://127.0.0.1:8000"; // change this if deployed
+  const BASE_URL = "https://fahadalifitnesspro.pythonanywhere.com"; 
   const profileImage = user?.profile_picture
     ? `${BASE_URL}${user.profile_picture}`
     : `${BASE_URL}/media/profile_pics/default.jpg`;
