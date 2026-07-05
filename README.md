@@ -1,70 +1,106 @@
-# Getting Started with Create React App
+# FitnessPro React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
 
-## Available Scripts
+![React](https://img.shields.io/badge/React-19-blue?logo=react)
+![Material UI](https://img.shields.io/badge/UI-Material%20UI-007FFF?logo=mui)
+![RapidAPI](https://img.shields.io/badge/API-RapidAPI-success)
+![YouTube API](https://img.shields.io/badge/API-YouTube-red?logo=youtube)
+![Vercel](https://img.shields.io/badge/Hosted%20on-Vercel-black?logo=vercel)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
-In the project directory, you can run:
+</p>
 
-### `npm start`
+<p align="center">
+A modern React-based fitness application that helps users discover gym exercises, learn proper form through YouTube demonstrations, and manage their accounts using a Django REST authentication backend.
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ Features
 
-### `npm test`
+- 🔍 Search thousands of gym exercises
+- 💪 Filter by body part, equipment, and target muscle
+- ▶️ Watch exercise demonstrations from YouTube
+- 🔐 User Authentication
+- 📱 Responsive UI
+- ⚡ Fast deployment with Vercel
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🎥 Live Demo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**🌐 Website**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+https://fitnesspro-fahad.vercel.app/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🏗 Architecture
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+React Frontend
+      │
+      ├── DRF Gym API (Authentication)
+      ├── RapidAPI ExerciseDB
+      └── YouTube API
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🔗 Backend Repository
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Authentication is handled by a separate Django REST Framework project.
 
-## Learn More
+**DRF Gym API**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+https://github.com/FAHAD-ALI-github/YOUR_BACKEND_REPOSITORY
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The backend is hosted on **PythonAnywhere** while this frontend is deployed on **Vercel**.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🚀 Installation
 
-### Analyzing the Bundle Size
+```bash
+git clone https://github.com/FAHAD-ALI-github/YOUR_FRONTEND_REPOSITORY.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+cd YOUR_FRONTEND_REPOSITORY
 
-### Making a Progressive Web App
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+npm run dev
+```
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🙏 Acknowledgement
 
-### Deployment
+The visual design of the **landing page only** was inspired by the following YouTube tutorial:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+https://www.youtube.com/watch?v=gpqoZQ8GNK8
 
-### `npm run build` fails to minify
+Only the landing page design was recreated for learning and inspiration purposes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The authentication system, backend integration, API integrations, protected routes, exercise search, YouTube integration, and all remaining application features were independently developed by me.
+
+---
+
+## 👨‍💻 Developer
+
+<div align="center">
+
+## Fahad Ali
+
+**Software Engineer | Full Stack Python Developer | AI Engineer**
+
+[![GitHub](https://img.shields.io/badge/GitHub-FAHAD--ALI--github-black?logo=github)](https://github.com/FAHAD-ALI-github)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Fahad%20Ali-blue?logo=linkedin)](https://www.linkedin.com/in/fahadali1078)
+
+</div>
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
