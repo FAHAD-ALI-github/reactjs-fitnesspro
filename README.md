@@ -54,7 +54,7 @@ Authentication is handled by a separate Django REST Framework project.
 
 **DRF Gym API**
 
-https://github.com/FAHAD-ALI-github/YOUR_BACKEND_REPOSITORY
+https://github.com/FAHAD-ALI-github/DRF_gymAPI
 
 The backend is hosted on **PythonAnywhere** while this frontend is deployed on **Vercel**.
 
@@ -63,9 +63,9 @@ The backend is hosted on **PythonAnywhere** while this frontend is deployed on *
 ## 🚀 Installation
 
 ```bash
-git clone https://github.com/FAHAD-ALI-github/YOUR_FRONTEND_REPOSITORY.git
+git clone https://github.com/FAHAD-ALI-github/reactjs-fitnesspro.git
 
-cd YOUR_FRONTEND_REPOSITORY
+cd reactjs-fitnesspro
 
 npm install
 
