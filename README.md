@@ -103,4 +103,4 @@ The authentication system, backend integration, API integrations, protected rout
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
